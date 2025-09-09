@@ -15,7 +15,7 @@ def multiplication_example():
     multiply_result = number * 4
     print(add_result)
     print(multiply_result)
-multiplication_example()
+#multiplication_example()
 
 def division_example():
     # we divide numbers
@@ -27,4 +27,37 @@ def division_example():
     multiply_result=20
     number=5
     print(multiply_result / number)
-division_example()
+#division_example()
+
+def multiplication_list():
+    numbers=[5,5,5,5,5,5]
+    total = 0
+    for num in numbers:
+        total += num
+    print(total)
+multiplication_list()
+
+def area_of_rectangle():
+    length = 7
+    height = 3
+    area = length * height
+    print(f"area of the rectangle is {area}")
+
+def area_of_square():
+    length = 7
+    area = length * length
+    print(f"area of the square is {area}")
+    # 7 "to the power of" 2
+    area = length ** 2
+    #The answer should still be 49
+    print(f"area of the square is {area}")
+area_of_square()
+
+def volume_of_cube():
+    length = 7
+    area = length * length * length
+    print(f"volume of the cube is {area}")
+    # 7 "to the power of" 3
+    area = length ** 3
+    print(f"volume of the cube is {area}")
+volume_of_cube()
